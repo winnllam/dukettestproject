@@ -21,13 +21,13 @@ cd ../frontend
 npm install
 ```
 
-Add a `/env` file in `/backend/dukettestproject`:
+Add a `.env` file in `/backend/dukettestproject`:
 
 ```bash
 STRIPE_SECRET_KEY=secret key here
 ```
 
-Add a `/env` file in `/frontend`:
+Add a `.env` file in `/frontend`:
 
 ```bash
 VITE_STRIPE_PUBLIC_KEY=public key here
